@@ -4,7 +4,7 @@ describe('Search box suit', ()=>{
         cy.visit('/')
     })
 
-    
+    //first comment
     it('Testing search box function', ()=>{
        // cy.intercept('GET', 'https://en.wikipedia.org/w/api.php*').as('createBoard')
         cy.intercept({
